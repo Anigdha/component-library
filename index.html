@@ -1,11 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>my library</title>
+    <link href="style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
 </head>
+
 <body>
     <h1>Anigdha's component library</h1>
     <p>welcome to my library where you will find the basic html tags and elements.</p>
@@ -17,20 +23,20 @@
     <h2>this is the second biggest heading.</h2>
     <p>this is a normal text. This is free flowing and It will wrap at the end like a paragraph.</p>
     <small>this is small text.</small>
-    
+
     <hr>
 
     <h2>@container</h2>
     <h3>fluid container</h3>
-    <div>this is a fluid container and it will go to the end of the page.</div>
+    <div class="container">this is a fluid container and it will go to the end of the page.</div>
     <h3>center container</h3>
-    <div>this is a centered container and it will go till the specified width.</div>
+    <div class="container center-container">this is a centered container and it will go till the specified width.</div>
 
     <hr>
 
     <h2>@links</h2>
-    <a href="/">Primary link</a>
-    <a href="/">Secondary link</a>
+    <a class="link link-primary" href="/">Primary link</a>
+    <a class="link link-secondary" href="/">Secondary link</a>
 
     <hr>
 
@@ -59,8 +65,8 @@
 
     <hr>
 
+    <h2>@nav</h2>
     <nav>
-        <h2>@nav</h2>
         <div>iAmBrand</div>
         <ol>
             <li>
@@ -73,13 +79,38 @@
                 <a href="/">about</a>
             </li>
         </ol>
-    </nav> 
-    
+    </nav>
+
     <hr>
+    <h2>@header</h2>
     <header>
-        <h2>@header</h2>
         <img src="images/hero.svg" alt="hero-img">
-        <h1>heading inside hero</h1>
+        <h1>heading inside header</h1>
     </header>
+
+    <hr>
+
+    <h2>@section</h2>
+    <section>
+        <h3>white section</h3>
+        <p>This will have white background</p>
+    </section>
+    <section>
+        <h3>off white section</h3>
+        <p>This will have off white background</p>
+    </section>
+
+    <hr>
+
+    <h2>@footer</h2>
+    <footer>
+        <div>some small heading inside footer.</div>
+        <ul>
+            <li>socialOne</li>
+            <li>socialTwo</li>
+            <li>socialThree</li>
+        </ul>
+    </footer>
 </body>
+
 </html>
