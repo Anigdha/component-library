@@ -4,6 +4,7 @@ body{
 
 :root{
     --primary-color:#DB2777;
+    --off-white:#E5E7EB;
     --dark-gray:#6B7280;
 }
 
@@ -84,4 +85,34 @@ hr{
 }
 .span-text{
     color:var(--primary-color);
+}
+
+/* section */
+.section{
+    padding:2rem;
+}
+.section h1{
+    text-align: center;
+}
+.ow{
+    background-color: var(--off-white);
+}
+
+/* footer */
+.footer{
+    background-color: var(--primary-color);
+    color:white;
+    text-align: center;
+    border-top-right-radius: 1rem;
+}
+.footer .footer-heading{
+    padding-top: 1rem;
+}
+.footer .link{
+    color: white;
+   
+}
+.footer ul{
+    padding-inline-start: 0;
+    padding: 1rem 0;
 }
